@@ -1,0 +1,8 @@
+From: it.support@enterprise.com
+To: ops@enterprise.com
+Subject: Clarification on system downtime
+
+The delay in order updates earlier today was due to
+temporary system maintenance.
+
+Systems are now stable.

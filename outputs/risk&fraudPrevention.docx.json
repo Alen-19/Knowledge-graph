@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["FR1108", "FR1123", "FR1141", "FR1156"],
+  "CUSTOMER_ID": ["CU204", "CU287", "CU352", "CU491"],
+  "DATE": ["18 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Risk & Fraud Management"],
+  "ISSUE": ["Repeated refund claims for non-delivery", "Multiple missing-item claims within a short period", "High-value refund requested without sufficient evidence", "Rider marked order delivered but customer reported non-receipt"]
+}

@@ -1,0 +1,14 @@
+From: escalation@enterprise.com
+To: management@enterprise.com
+Subject: Escalation: Increase in customer complaints
+
+Dear Management Team,
+
+There has been a noticeable increase in customer complaints related to
+delivery delays and lack of communication over the past three days.
+
+This issue may impact customer retention if not addressed promptly.
+Requesting guidance on immediate corrective measures.
+
+Regards,
+Escalation Team

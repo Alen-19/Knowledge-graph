@@ -1,0 +1,6 @@
+From: ops@enterprise.com
+To: analytics@enterprise.com
+Subject: Delay spike
+
+Seeing more delays today.
+Any insights?

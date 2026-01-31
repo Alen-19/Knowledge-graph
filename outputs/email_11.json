@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "capacity planning",
+  "issue_description": "Consistent increase in order volume between 7 PM and 9 PM in metropolitan locations.",
+  "severity": "moderate",
+  "sentiment": "neutral",
+  "department": "Operations",
+  "cause": "peak‑hour demand",
+  "time_window": "7 PM - 9 PM"
+}

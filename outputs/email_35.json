@@ -1,0 +1,12 @@
+{
+  "customer_id": "nikhil.j@gmail.com",
+  "order_id": "O1210",
+  "agent_id": null,
+  "issue_type": "delivery_feedback",
+  "issue_description": "Appreciation for early delivery and polite, professional agent.",
+  "severity": "low",
+  "sentiment": "positive",
+  "department": "delivery",
+  "cause": "Agent delivered early and was polite and professional.",
+  "time_window": null
+}

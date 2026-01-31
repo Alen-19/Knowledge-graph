@@ -1,0 +1,13 @@
+From: feedback@enterprise.com
+To: management@enterprise.com
+Subject: Positive Customer Feedback
+
+Dear Management,
+
+Customer ID C301 has provided positive feedback stating that the service
+was quick and the experience was satisfactory.
+
+This reflects well on the assigned delivery team.
+
+Regards,
+Feedback System

@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": "A312",
+  "issue_type": "performance",
+  "issue_description": "multiple late deliveries",
+  "severity": "medium",
+  "sentiment": "concern",
+  "department": "operations",
+  "cause": "late deliveries",
+  "time_window": "past week"
+}

@@ -1,0 +1,13 @@
+From: feedback@enterprise.com
+To: management@enterprise.com
+Subject: Weekly Customer Satisfaction Update
+
+Dear Management,
+
+Customer satisfaction scores have improved by 12% this week.
+Major contributing factors include faster delivery and better communication.
+
+Detailed report will follow.
+
+Regards,
+Feedback Team

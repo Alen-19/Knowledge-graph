@@ -1,0 +1,9 @@
+From: ops.team@enterprise.com
+To: management@enterprise.com
+Subject: Today’s Ops Snapshot
+
+• Orders handled: 245
+• Delays: 18
+• Main issue: traffic
+
+More details tomorrow.

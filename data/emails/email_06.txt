@@ -1,0 +1,14 @@
+From: dataadmin@enterprise.com
+To: it.support@enterprise.com
+Subject: Order status inconsistency
+
+Hi IT Team,
+
+While reviewing order records, we noticed that Order ID O512
+is marked as PENDING in the database, but the customer has
+confirmed successful delivery.
+
+Requesting verification and correction at the earliest.
+
+Thanks,
+Data Administration

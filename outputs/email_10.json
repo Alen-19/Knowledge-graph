@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "High Demand",
+  "issue_description": "Surge in order volume in urban locations between 7 PM and 9 PM.",
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "Analytics",
+  "cause": "Increased customer demand in urban areas during peak evening hours",
+  "time_window": "7 PM - 9 PM"
+}

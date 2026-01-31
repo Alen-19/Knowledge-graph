@@ -1,0 +1,62 @@
+```json
+{
+  "entities": [
+    {
+      "type": "DEPARTMENT",
+      "value": "Food Delivery Operations – Data Analytics & Reporting"
+    },
+    {
+      "type": "DATE",
+      "value": "17 January 2026"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "DA1311"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU149"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Order recorded as completed in operations but missing in analytics report"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "DA1326"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU266"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Duplicate order entry impacting revenue metrics"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "DA1342"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU339"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Order cancellation status not updated in reporting system"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "DA1358"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU481"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Delayed data reflection in performance dashboards"
+    }
+  ]
+}
+```

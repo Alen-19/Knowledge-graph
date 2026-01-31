@@ -1,0 +1,13 @@
+From: support@enterprise.com
+To: operations@enterprise.com
+Subject: Order Cancellation Not Reflected
+
+Dear Team,
+
+Customer ID C509 has reported that Order ID O721 was cancelled,
+but the system still shows the status as "In Progress".
+
+Please investigate and update the order status.
+
+Regards,
+Customer Support

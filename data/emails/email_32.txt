@@ -1,0 +1,8 @@
+From: ops.manager@enterprise.com
+To: scheduling@enterprise.com
+Subject: Additional agents required
+
+Please arrange extra delivery agents for tonight’s peak window.
+We expect higher order volume than usual.
+
+Thanks.

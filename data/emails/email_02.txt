@@ -1,0 +1,13 @@
+From: analytics@enterprise.com
+To: marketing@enterprise.com
+Subject: Customer Preference Observation
+
+Hello Team,
+
+Based on recent feedback analysis, Customer ID C215 prefers faster service
+and has raised multiple concerns regarding delayed deliveries.
+
+This insight can be used for personalized recommendations.
+
+Thanks,
+Analytics Team

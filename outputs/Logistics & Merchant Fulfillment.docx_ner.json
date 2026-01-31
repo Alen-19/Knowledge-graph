@@ -1,0 +1,62 @@
+```
+{
+  "entities": [
+    {
+      "type": "DEPARTMENT",
+      "value": "Food Delivery Operations – Logistics & Merchant Fulfillment"
+    },
+    {
+      "type": "DATE",
+      "value": "17 January 2026"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "FD412"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU178"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Order delivered with missing items"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "FD429"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU294"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Delivery delayed due to repeated rider reassignment"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "FD447"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU366"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Incorrect items packed by merchant"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "FD458"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU590"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Order marked “delivered” but not received by customer"
+    }
+  ]
+}
+```

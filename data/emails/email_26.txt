@@ -1,0 +1,13 @@
+From: data.team@enterprise.com
+To: it@enterprise.com
+Subject: Inconsistent order timestamps
+
+Hi IT,
+
+We noticed mismatches between order_time and delivery_time
+for a few records in yesterday’s data load.
+
+Requesting a quick validation of the ingestion process.
+
+Thanks,
+Data Team

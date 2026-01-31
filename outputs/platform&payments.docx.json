@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["FP301", "FP327", "FP344", "FP362"],
+  "CUSTOMER_ID": ["CU114", "CU256", "CU389", "CU501"],
+  "DATE": ["16 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Platform & Payments"],
+  "ISSUE": ["Duplicate charge for a single order", "Promotional discount not applied at checkout", "Refund approved but not credited to wallet", "Wallet balance deducted without order confirmation"]
+}

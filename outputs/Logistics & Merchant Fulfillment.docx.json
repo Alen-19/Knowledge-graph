@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["FD412", "FD429", "FD447", "FD458"],
+  "CUSTOMER_ID": ["CU178", "CU294", "CU366", "CU590"],
+  "DATE": ["17 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Logistics & Merchant Fulfillment"],
+  "ISSUE": ["Order delivered with missing items", "Delivery delayed due to repeated rider reassignment", "Incorrect items packed by merchant", "Order marked “delivered” but not received by customer"]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "customer_id": "107",
+    "order_id": "507",
+    "agent_id": "207",
+    "issue_type": "Delivery Delay",
+    "issue_description": "Very late delivery, no updates",
+    "severity": null,
+    "sentiment": "Negative",
+    "department": "Operations",
+    "cause": "Delivery Delay",
+    "time_window": null
+  },
+  {
+    "customer_id": "109",
+    "order_id": "509",
+    "agent_id": "210",
+    "issue_type": "Cancellation Not Reflected",
+    "issue_description": "Order cancelled without notice",
+    "severity": null,
+    "sentiment": "Negative",
+    "department": "Operations",
+    "cause": "Cancellation Not Reflected",
+    "time_window": null
+  },
+  {
+    "customer_id": "113",
+    "order_id": "513",
+    "agent_id": "214",
+    "issue_type": "Late Delivery",
+    "issue_description": "Food arrived hot and on time",
+    "severity": null,
+    "sentiment": "Positive",
+    "department": "Operations",
+    "cause": "Late Delivery",
+    "time_window": null
+  },
+  {
+    "customer_id": "101",
+    "order_id": "516",
+    "agent_id": "217",
+    "issue_type": "Minor Delay",
+    "issue_description": "Quick delivery and friendly agent",
+    "severity": null,
+    "sentiment": "Positive",
+    "department": "Operations",
+    "cause": "Minor Delay",
+    "time_window": null
+  },
+  {
+    "customer_id": "104",
+    "order_id": "519",
+    "agent_id": "220",
+    "issue_type": "Late Delivery",
+    "issue_description": "Slight delay but acceptable",
+    "severity": null,
+    "sentiment": "Neutral",
+    "department": "Operations",
+    "cause": "Late Delivery",
+    "time_window": null
+  },
+  {
+    "customer_id": "107",
+    "order_id": "522",
+    "agent_id": "223",
+    "issue_type": "Delivery Delay",
+    "issue_description": "Delivery was very late",
+    "severity": null,
+    "sentiment": "Negative",
+    "department": "Operations",
+    "cause": "Delivery Delay",
+    "time_window": null
+  },
+  {
+    "customer_id": "109",
+    "order_id": "525",
+    "agent_id": "226",
+    "issue_type": "Cancellation Issue",
+    "issue_description": "Order cancelled unexpectedly",
+    "severity": null,
+    "sentiment": "Negative",
+    "department": "Operations",
+    "cause": "Cancellation Issue",
+    "time_window": null
+  },
+  {
+    "customer_id": "113",
+    "order_id": "528",
+    "agent_id": "229",
+    "issue_type": "Late Delivery",
+    "issue_description": "Food arrived hot and fresh",
+    "severity": null,
+    "sentiment": "Positive",
+    "department": "Operations",
+    "cause": "Late Delivery",
+    "time_window": null
+  },
+  {
+    "customer_id": "118",
+    "order_id": "504",
+    "agent_id": "204",
+    "issue_type": "Agent Behaviour",
+    "issue_description": "Agent was polite but delivery was slow",
+    "severity": null,
+    "sentiment": "Neutral",
+    "department": "Operations",
+    "cause": "Agent Behaviour",
+    "time_window": null
+  },
+  {
+    "customer_id": "121",
+    "order_id": "501",
+    "agent_id": "201",
+    "issue_type": "Wrong Address",
+    "issue_description": "Delivery was fast and smooth",
+    "severity": null,
+    "sentiment": "Positive",
+    "department": "Operations",
+    "cause": "Wrong Address",
+    "time_window": null
+  }
+]

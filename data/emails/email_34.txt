@@ -1,0 +1,8 @@
+From: compliance@enterprise.com
+To: security@enterprise.com
+Subject: Review required – unusual order pattern
+
+Requesting review of multiple high-value orders placed
+from the same customer account within a short duration.
+
+Order IDs: O1201, O1202, O1203

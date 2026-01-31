@@ -1,0 +1,62 @@
+```json
+{
+  "entities": [
+    {
+      "type": "DEPARTMENT",
+      "value": "Food Delivery Operations – Information Security"
+    },
+    {
+      "type": "DATE",
+      "value": "17 January 2026"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "SE1403"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU173"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Unauthorized login attempt detected on customer account"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "SE1419"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU254"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Account access blocked due to repeated failed login attempts"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "SE1436"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU328"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Unauthorized password reset request"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "SE1452"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU476"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Suspicious activity detected on rider account"
+    }
+  ]
+}
+```

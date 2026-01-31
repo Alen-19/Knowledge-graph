@@ -1,0 +1,13 @@
+From: support@enterprise.com
+To: operations@enterprise.com
+Subject: Service Delay Reported by Customer
+
+Dear Operations Team,
+
+Customer ID C102 has reported a delay in service for Order ID O455.
+The delivery exceeded the expected time by 25 minutes.
+
+Please review the assigned agent and take necessary action.
+
+Regards,
+Customer Support Team

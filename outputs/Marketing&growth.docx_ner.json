@@ -1,0 +1,62 @@
+```json
+{
+  "entities": [
+    {
+      "type": "DEPARTMENT",
+      "value": "Food Delivery Operations – Marketing & Growth"
+    },
+    {
+      "type": "DATE",
+      "value": "18 January 2026"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "PR1204"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU136"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Promotional coupon not applied at checkout"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "PR1217"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU258"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Cashback offer not credited after order completion"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "PR1232"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU341"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Incorrect discount amount applied"
+    },
+    {
+      "type": "ORDER_ID",
+      "value": "PR1249"
+    },
+    {
+      "type": "CUSTOMER_ID",
+      "value": "CU492"
+    },
+    {
+      "type": "ISSUE",
+      "value": "Offer eligibility mismatch during campaign"
+    }
+  ]
+}
+```

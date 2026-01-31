@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["MO812", "MO826", "MO839", "MO857"],
+  "CUSTOMER_ID": ["CU156", "CU243", "CU314", "CU468"],
+  "DATE": ["17 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Merchant Operations"],
+  "ISSUE": ["One item missing from the delivered order", "Incorrect food item packed by merchant", "Poor packaging resulting in food spillage", "Order marked ready despite incomplete preparation"]
+}

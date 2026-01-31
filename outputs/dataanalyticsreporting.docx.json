@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["DA1311", "DA1326", "DA1342", "DA1358"],
+  "CUSTOMER_ID": ["CU149", "CU266", "CU339", "CU481"],
+  "DATE": ["17 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Data Analytics & Reporting"],
+  "ISSUE": ["Order recorded as completed in operations but missing in analytics report", "Duplicate order entry impacting revenue metrics", "Order cancellation status not updated in reporting system", "Delayed data reflection in performance dashboards"]
+}

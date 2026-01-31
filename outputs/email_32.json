@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "resource_request",
+  "issue_description": "Please arrange extra delivery agents for tonight’s peak window due to higher order volume than usual.",
+  "severity": "medium",
+  "sentiment": "neutral",
+  "department": "scheduling",
+  "cause": "higher order volume",
+  "time_window": "tonight’s peak window"
+}

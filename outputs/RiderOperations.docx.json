@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["RO714", "RO726", "RO739", "RO754"],
+  "CUSTOMER_ID": ["CU198", "CU267", "CU321", "CU489"],
+  "DATE": ["17 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Rider Operations"],
+  "ISSUE": ["Order delayed due to multiple rider reassignments", "Rider canceled after accepting the order", "Late pickup caused by rider unavailability", "Order canceled due to no rider assignment"]
+}

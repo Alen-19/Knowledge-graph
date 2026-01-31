@@ -1,0 +1,14 @@
+From: ops.team@enterprise.com
+To: management@enterprise.com
+Subject: Daily operations update
+
+Dear Management,
+
+Today we processed approximately 245 orders.
+Out of these, around 18 orders faced delays, primarily due to traffic
+congestion in city areas during peak hours.
+
+A detailed report will be shared in the weekly summary.
+
+Regards,
+Operations Team

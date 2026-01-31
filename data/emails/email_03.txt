@@ -1,0 +1,13 @@
+From: support@enterprise.com
+To: escalation@enterprise.com
+Subject: Incident Escalation – Repeated Complaints
+
+Dear Team,
+
+We have received repeated complaints from Customer ID C178 regarding
+service quality for multiple orders.
+
+Requesting immediate investigation and resolution.
+
+Regards,
+Support Desk

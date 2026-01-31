@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": "O1141",
+  "agent_id": "A515",
+  "issue_type": "Delay",
+  "issue_description": "Heavy traffic near city center. Running late for Order O1141. Customer informed.",
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "Operations",
+  "cause": "Traffic",
+  "time_window": null
+}

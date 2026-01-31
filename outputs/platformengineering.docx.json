@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["PE914", "PE927", "PE942", "PE956"],
+  "CUSTOMER_ID": ["CU129", "CU264", "CU338", "CU491"],
+  "DATE": ["18 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Platform Engineering"],
+  "ISSUE": ["App crash during checkout resulting in order failure", "Delayed order status updates in customer application", "Payment page timeout due to slow API response", "Merchant app unresponsive during order confirmation"]
+}

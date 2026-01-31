@@ -1,0 +1,13 @@
+From: security@enterprise.com
+To: compliance@enterprise.com
+Subject: Suspicious Order Activity Detected
+
+Hello Team,
+
+Multiple orders have been placed from Customer ID C611
+within a short time frame using different payment methods.
+
+Please review for potential fraud.
+
+Regards,
+Security Team

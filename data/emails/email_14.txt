@@ -1,0 +1,13 @@
+From: support@enterprise.com
+To: operations@enterprise.com
+Subject: Missing Delivery Confirmation
+
+Dear Team,
+
+Order ID O845 shows no delivery confirmation even after completion time.
+Customer ID C734 has contacted support regarding this issue.
+
+Please verify with the assigned agent.
+
+Regards,
+Support Team

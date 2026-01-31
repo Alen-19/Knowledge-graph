@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "Data Quality",
+  "issue_description": "Missing delivery_time values observed for completed orders during routine audit.",
+  "severity": "Medium",
+  "sentiment": "Neutral",
+  "department": "Audit",
+  "cause": "Data entry omission",
+  "time_window": null
+}

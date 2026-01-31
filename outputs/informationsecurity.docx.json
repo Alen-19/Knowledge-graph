@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["SE1403", "SE1419", "SE1436", "SE1452"],
+  "CUSTOMER_ID": ["CU173", "CU254", "CU328", "CU476"],
+  "DATE": ["17 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Information Security"],
+  "ISSUE": ["Unauthorized login attempt detected on customer account", "Account access blocked due to repeated failed login attempts", "Unauthorized password reset request", "Suspicious activity detected on rider account"]
+}

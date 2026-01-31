@@ -1,0 +1,19 @@
+From: escalation@enterprise.com
+To: operations@enterprise.com
+Subject: Escalation due to repeated customer complaints
+
+Dear Operations Team,
+
+This email is to formally escalate an issue involving repeated customer
+complaints related to delivery delays for multiple orders.
+
+Initial analysis suggests potential resource allocation issues during
+peak hours. A deeper investigation is recommended to prevent further
+escalations.
+
+Relevant Order IDs: O689, O721, O845
+
+Please provide an update on corrective actions.
+
+Regards,
+Escalation Team

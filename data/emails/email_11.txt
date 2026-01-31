@@ -1,0 +1,14 @@
+From: analytics@enterprise.com
+To: ops@enterprise.com
+Subject: Peak-hour demand observation
+
+Hi Team,
+
+Recent analysis shows a consistent increase in order volume
+between 7 PM and 9 PM in metropolitan locations.
+
+It would be beneficial to allocate additional delivery resources
+during these hours to avoid delays.
+
+Regards,
+Analytics Team

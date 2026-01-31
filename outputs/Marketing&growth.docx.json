@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["PR1204", "PR1217", "PR1232", "PR1249"],
+  "CUSTOMER_ID": ["CU136", "CU258", "CU341", "CU492"],
+  "DATE": ["18 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Marketing & Growth"],
+  "ISSUE": ["Promotional coupon not applied at checkout", "Cashback offer not credited after order completion", "Incorrect discount amount applied", "Offer eligibility mismatch during campaign"]
+}

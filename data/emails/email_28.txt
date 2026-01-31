@@ -1,0 +1,11 @@
+From: agent515@enterprise.com
+To: ops@enterprise.com
+Subject: Delay due to traffic
+
+Hi,
+
+Heavy traffic near city center.
+Running late for Order O1141.
+Customer informed.
+
+Agent A515

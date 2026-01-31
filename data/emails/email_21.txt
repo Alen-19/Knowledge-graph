@@ -1,0 +1,20 @@
+From: vinod.nair@gmail.com
+To: support@enterprise.com
+Subject: Delivery delay and lack of updates
+
+Hello Support,
+
+I placed an order yesterday at around 8:15 PM with an expected delivery
+time of 8:45 PM. However, the order was delivered only after 9:40 PM.
+During this entire period, there were no updates in the app.
+
+I tried calling the delivery agent multiple times but did not receive
+any response. This kind of experience is very disappointing.
+
+Order ID: O1101
+Customer ID: C701
+
+Please investigate this issue.
+
+Regards,
+Vinod

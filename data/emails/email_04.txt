@@ -1,0 +1,13 @@
+From: operations@enterprise.com
+To: hr@enterprise.com
+Subject: Delivery Agent Performance Concern
+
+Hi HR Team,
+
+Delivery Agent ID A312 has been associated with multiple late deliveries
+in the past week.
+
+Please review performance metrics and take appropriate action.
+
+Best,
+Operations Team

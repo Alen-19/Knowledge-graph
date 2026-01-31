@@ -1,0 +1,13 @@
+From: analytics@enterprise.com
+To: operations@enterprise.com
+Subject: High Demand Observed in Urban Locations
+
+Hello Team,
+
+Data analysis indicates a surge in order volume in urban locations
+between 7 PM and 9 PM.
+
+Suggest allocating additional delivery agents during peak hours.
+
+Thanks,
+Analytics Team

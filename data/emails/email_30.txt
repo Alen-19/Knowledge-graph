@@ -1,0 +1,8 @@
+From: analytics@enterprise.com
+To: operations@enterprise.com
+Subject: Delivery performance summary
+
+Analysis of last week’s data shows higher delay rates
+during weekends and late evenings.
+
+Recommendation: Increase agent availability during peak slots.

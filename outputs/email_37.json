@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": "A218",
+  "issue_type": "delivery delay",
+  "issue_description": "Repeated delivery delays this week",
+  "severity": "medium",
+  "sentiment": "negative",
+  "department": "operations",
+  "cause": null,
+  "time_window": "this week"
+}

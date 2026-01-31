@@ -1,0 +1,7 @@
+{
+  "ORDER_ID": ["CS611", "CS624", "CS639", "CS657"],
+  "CUSTOMER_ID": ["CU182", "CU241", "CU305", "CU472"],
+  "DATE": ["18 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Customer Experience"],
+  "ISSUE": ["Delivery delay complaint", "Refund request unresolved", "Incorrect resolution provided", "Support ticket closed without customer confirmation"]
+}

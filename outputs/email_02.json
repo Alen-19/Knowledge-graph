@@ -1,0 +1,12 @@
+{
+  "customer_id": "C215",
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "Delayed Delivery",
+  "issue_description": "Multiple concerns regarding delayed deliveries",
+  "severity": null,
+  "sentiment": "negative",
+  "department": "logistics",
+  "cause": null,
+  "time_window": null
+}

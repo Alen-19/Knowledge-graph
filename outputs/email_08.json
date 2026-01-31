@@ -1,0 +1,12 @@
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "delay",
+  "issue_description": "Orders faced delays due to traffic congestion in city areas during peak hours.",
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "Operations",
+  "cause": "traffic congestion",
+  "time_window": "peak hours"
+}

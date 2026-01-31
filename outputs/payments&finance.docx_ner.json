@@ -1,0 +1,14 @@
+```json
+{
+  "ORDER_ID": ["PF1002", "PF1016", "PF1031", "PF1045"],
+  "CUSTOMER_ID": ["CU118", "CU259", "CU341", "CU507"],
+  "DATE": ["18 January 2026"],
+  "DEPARTMENT": ["Food Delivery Operations – Payments & Finance"],
+  "ISSUE": [
+    "Duplicate payment charged for a single order",
+    "Refund approved but not credited to wallet",
+    "Wallet balance deducted without order confirmation",
+    "Promotional discount not applied at checkout"
+  ]
+}
+```
