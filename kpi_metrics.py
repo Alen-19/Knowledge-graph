@@ -163,6 +163,17 @@ class KPICalculator:
             neutral = sentiment_dist.get("Neutral", 0)
             total = len(sentiments)
             
+            # Build sentiment breakdown per issue type (normalized)
+            sentiment_by_issue = {}
+            for issue, sents in sentiment_issues.items():
+                breakdown = {}
+                for s in sents:
+                    norm = s.strip().capitalize()
+                    if norm in ("Concern", "Concerned"):
+                        norm = "Negative"
+                    breakdown[norm] = breakdown.get(norm, 0) + 1
+                sentiment_by_issue[issue] = breakdown
+
             return {
                 "total_sentiments": total,
                 "positive_count": positive,
@@ -172,6 +183,7 @@ class KPICalculator:
                 "neutral_count": neutral,
                 "neutral_rate": f"{(neutral/max(total, 1)*100):.1f}%",
                 "sentiment_distribution": sentiment_dist,
+                "sentiment_by_issue": sentiment_by_issue,
                 "customer_satisfaction_score": f"{(positive/max(total, 1)*100):.1f}%"
             }
         
@@ -190,7 +202,7 @@ class KPICalculator:
                     try:
                         with open(os.path.join(self.output_dir, file), 'r') as f:
                             data = json.load(f)
-                            agent_id = data.get("agent_id", "Unassigned")
+                            agent_id = data.get("agent_id") or "Unassigned"
                             
                             if agent_id not in agent_issues:
                                 agent_issues[agent_id] = 0
@@ -203,7 +215,7 @@ class KPICalculator:
             
             agent_metrics = []
             for agent, count in agent_issues.items():
-                positive = sum(1 for s in agent_sentiments.get(agent, []) if s == "Positive")
+                positive = sum(1 for s in agent_sentiments.get(agent, []) if str(s).lower() == "positive")
                 satisfaction = (positive / max(count, 1)) * 100
                 
                 agent_metrics.append({

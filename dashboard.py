@@ -211,18 +211,37 @@ with tab1:
         
         st.markdown("---")
         
-        # Agent Performance
+        # Sentiment by Issue Type
+        st.markdown("### 🎭 Sentiment by Issue Type")
+        sentiment_data = kpis.get("sentiment_analysis", {})
+        sentiment_by_issue = sentiment_data.get("sentiment_by_issue", {})
+        if sentiment_by_issue:
+            # Build a dataframe: rows = issue types, columns = sentiment categories
+            rows = []
+            for issue, breakdown in sentiment_by_issue.items():
+                for sentiment, count in breakdown.items():
+                    rows.append({"Issue Type": issue, "Sentiment": sentiment, "Count": count})
+            sbi_df = pd.DataFrame(rows)
+            
+            # Sort issue types by total count descending
+            issue_order = sbi_df.groupby("Issue Type")["Count"].sum().sort_values(ascending=False).index.tolist()
+            
+            color_map = {"Positive": "#2ecc71", "Neutral": "#f39c12", "Negative": "#e74c3c"}
+            fig = px.bar(
+                sbi_df, x="Issue Type", y="Count", color="Sentiment",
+                barmode="group", title="Sentiment Breakdown by Issue Type",
+                color_discrete_map=color_map,
+                category_orders={"Issue Type": issue_order, "Sentiment": ["Positive", "Neutral", "Negative"]}
+            )
+            fig.update_layout(xaxis_tickangle=-30)
+            st.plotly_chart(fig, use_container_width=True)
+        
+        # Agent Performance Table (keep the table, remove the chart)
         st.markdown("### 👥 Agent Performance")
         agent_perf = kpis.get("agent_performance", {})
         if agent_perf.get("top_agents"):
             agent_df = pd.DataFrame(agent_perf["top_agents"])
             st.dataframe(agent_df, use_container_width=True)
-            
-            # Agent comparison chart
-            if len(agent_df) > 0:
-                fig = px.bar(agent_df, x="agent_id", y="issues_handled", 
-                            color="satisfaction_score", title="Agent Performance Comparison")
-                st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("---")
         
