@@ -1,0 +1,12 @@
+{
+  "customer_id": "C404",
+  "order_id": "O2204",
+  "agent_id": "A08",
+  "issue_type": "Support Appreciation",
+  "issue_description": "Customer praised agent A08 for resolving payment issue within 5 minutes. Fastest resolution experienced. Service standards improving.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Payments",
+  "cause": null,
+  "time_window": "5 minutes"
+}

@@ -1,12 +1,15 @@
 import os
 import json
 from neo4j import GraphDatabase
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------- CONFIG ----------------
-NEO4J_URI = ""
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = ""
-OUTPUT_DIR = "outputs"
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "outputs")
 # ---------------- NEO4J ----------------
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
@@ -14,8 +17,8 @@ driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 with driver.session() as session:
-    # Process email files (email_01.json to email_40.json)
-    for i in range(1, 41):
+    # Process email files (email_01.json to email_50.json)
+    for i in range(1, 51):
         file = f"email_{i:02d}.json"
         file_path = os.path.join(OUTPUT_DIR, file)
         

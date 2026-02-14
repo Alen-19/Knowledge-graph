@@ -1,0 +1,16 @@
+streamlit
+neo4j
+pinecone
+groq
+sentence-transformers
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-groq
+plotly
+pandas
+numpy
+networkx
+pyvis
+python-dotenv

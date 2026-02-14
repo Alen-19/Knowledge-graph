@@ -1,0 +1,12 @@
+From: feedback@enterprise.com
+To: management@enterprise.com
+Subject: Weekly NPS Score Improvement
+
+Dear Management,
+
+This week's Net Promoter Score has climbed to 72, up from 58 last month. Customer C408 and several others mentioned in their surveys that faster deliveries and friendly support (especially on order O2208) contributed to their high ratings.
+
+The team's efforts are clearly paying off.
+
+Regards,
+Feedback Analysis Team

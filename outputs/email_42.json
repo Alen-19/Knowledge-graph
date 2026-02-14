@@ -1,0 +1,12 @@
+{
+  "customer_id": "C402",
+  "order_id": "O2202",
+  "agent_id": "A15",
+  "issue_type": "Support Appreciation",
+  "issue_description": "Issue resolved within minutes by agent A15. Agent was courteous, knowledgeable and went above and beyond. Extremely satisfied.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Support",
+  "cause": null,
+  "time_window": null
+}

@@ -2,7 +2,8 @@ import os
 import sys
 sys.path.insert(0, 'ner')
 
-from ner_database_direct import parse_sql_file, build_flat_ner_output
+from ner_database_direct 
+import parse_sql_file, build_flat_ner_output
 import json
 
 OUTPUT_DIR = "outputs"

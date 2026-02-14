@@ -1,0 +1,12 @@
+{
+  "customer_id": "C403",
+  "order_id": "O2203",
+  "agent_id": null,
+  "issue_type": "Positive Feedback",
+  "issue_description": "Customer appreciates the new app update. Real-time tracking was spot on. Notifications kept informed at every step. UI is smooth and intuitive.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Product",
+  "cause": null,
+  "time_window": null
+}

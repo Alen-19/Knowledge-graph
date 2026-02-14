@@ -1,0 +1,12 @@
+{
+  "customer_id": "C408",
+  "order_id": "O2208",
+  "agent_id": null,
+  "issue_type": "Positive Feedback",
+  "issue_description": "NPS score climbed to 72 from 58 last month. Customers cited faster deliveries and friendly support as reasons for high ratings.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Management",
+  "cause": null,
+  "time_window": "this week"
+}

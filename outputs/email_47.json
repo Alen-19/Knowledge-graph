@@ -1,0 +1,12 @@
+{
+  "customer_id": "C407",
+  "order_id": "O2207",
+  "agent_id": "A12",
+  "issue_type": "Refund Appreciation",
+  "issue_description": "Refund for wrong item processed within 2 hours. Agent A12 handled everything seamlessly. Hassle-free experience. Will continue ordering.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Support",
+  "cause": "Wrong item",
+  "time_window": "2 hours"
+}
