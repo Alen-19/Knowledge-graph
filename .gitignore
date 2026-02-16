@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 graph.html
 *.zip
+.streamlit/secrets.toml
+venv/
+.venv/
+*.egg-info/
+dist/
+build/

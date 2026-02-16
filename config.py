@@ -3,9 +3,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# ============= HELPER: Read from Streamlit secrets OR env =============
+def _get_secret(key: str, default: str = None) -> str:
+    """Read a secret from Streamlit Cloud secrets first, then fall back to .env"""
+    try:
+        import streamlit as st
+        if key in st.secrets:
+            return st.secrets[key]
+    except Exception:
+        pass
+    return os.getenv(key, default)
+
 # ============= API KEYS =============
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+GROQ_API_KEY = _get_secret("GROQ_API_KEY")
+PINECONE_API_KEY = _get_secret("PINECONE_API_KEY")
 
 # ============= EMBEDDING CONFIG =============
 # Using Hugging Face (FREE) instead of OpenAI
@@ -13,13 +24,13 @@ HUGGINGFACE_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # Free, fast, good
 EMBEDDING_DIMENSION = 384  # Dimension for the HF model
 
 # ============= NEO4J CONFIG =============
-NEO4J_URI = os.getenv("NEO4J_URI", "neo4j+s://2c6d793b.databases.neo4j.io:7687")
-NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+NEO4J_URI = _get_secret("NEO4J_URI", "neo4j+s://2c6d793b.databases.neo4j.io:7687")
+NEO4J_USER = _get_secret("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = _get_secret("NEO4J_PASSWORD")
 
 # ============= PINECONE CONFIG =============
-PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "enterprise-knowledge-graph")
-PINECONE_ENVIRONMENT = os.getenv("PINECONE_ENVIRONMENT", "us-east-1")
+PINECONE_INDEX_NAME = _get_secret("PINECONE_INDEX_NAME", "enterprise-knowledge-graph")
+PINECONE_ENVIRONMENT = _get_secret("PINECONE_ENVIRONMENT", "us-east-1")
 PINECONE_DIMENSION = EMBEDDING_DIMENSION  # 384 for HuggingFace sentence-transformers model
 
 # ============= PATHS =============
