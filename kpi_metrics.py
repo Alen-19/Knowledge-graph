@@ -7,6 +7,57 @@ from neo4j import GraphDatabase
 import config
 import pandas as pd
 
+# ── Issue-type normalisation map ──────────────────────────────────────
+# Maps lowercased, underscore-stripped issue types → canonical label.
+# Any value not in this map is title-cased automatically.
+_ISSUE_SYNONYMS = {
+    "delivery delay": "Delivery Delay",
+    "delivery_delay": "Delivery Delay",
+    "late delivery": "Delivery Delay",
+    "delayed delivery": "Delivery Delay",
+    "delay": "Delivery Delay",
+    "order delay": "Delivery Delay",
+    "service delay": "Delivery Delay",
+    "delivery delay and lack of updates": "Delivery & Communication Delay",
+    "delivery delays and lack of communication": "Delivery & Communication Delay",
+    "delivery performance": "Delivery Performance",
+    "delivery_feedback": "Delivery Feedback",
+    "missing delivery confirmation": "Delivery Confirmation Issue",
+    "cancellation confirmation": "Order Cancellation",
+    "order cancellation": "Order Cancellation",
+    "order status inconsistency": "Order Status Issue",
+    "resource_request": "Resource Request",
+    "capacity planning": "Capacity Planning",
+    "system downtime": "System Downtime",
+    "unusual order pattern": "Unusual Order Pattern",
+    "high demand": "High Demand",
+    "traffic": "High Demand",
+    "service quality": "Service Quality",
+    "data quality": "Data Quality",
+    "food quality": "Food Quality",
+    "feedback": "Feedback",
+    "positive feedback": "Positive Feedback",
+    "support appreciation": "Support Appreciation",
+    "refund appreciation": "Refund Appreciation",
+    "service recovery": "Service Recovery",
+    "fraud": "Fraud",
+    "performance": "Performance",
+}
+
+
+def normalize_issue_type(raw: str) -> str:
+    """Return a canonical issue-type label.
+
+    1. Strip whitespace, lowercase, replace underscores with spaces.
+    2. Look up in the synonym map.
+    3. Fall back to title-cased version of the cleaned string.
+    """
+    if not raw:
+        return "Unknown"
+    key = raw.strip().lower().replace("_", " ")
+    return _ISSUE_SYNONYMS.get(key, key.title())
+
+
 class KPICalculator:
     """Calculate KPIs for enterprise intelligence"""
     
@@ -103,7 +154,7 @@ class KPICalculator:
                         with open(os.path.join(self.output_dir, file), 'r') as f:
                             data = json.load(f)
                             if data.get("issue_type"):
-                                issue_types.append(data.get("issue_type"))
+                                issue_types.append(normalize_issue_type(data["issue_type"]))
                             if data.get("severity"):
                                 issue_severities.append(data.get("severity"))
                     except:
@@ -141,7 +192,7 @@ class KPICalculator:
                             sentiment = data.get("sentiment", "Neutral")
                             sentiments.append(sentiment)
                             
-                            issue = data.get("issue_type", "Unknown")
+                            issue = normalize_issue_type(data.get("issue_type", ""))
                             if issue not in sentiment_issues:
                                 sentiment_issues[issue] = []
                             sentiment_issues[issue].append(sentiment)
