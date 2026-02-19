@@ -43,6 +43,20 @@ st.markdown("""
     [data-testid="stToolbar"] {
         display: none;
     }
+    /* Keep sidebar always visible — disable collapse */
+    [data-testid="stSidebar"] {
+        min-width: 260px !important;
+        max-width: 320px !important;
+        transform: none !important;
+        position: relative !important;
+        transition: none !important;
+    }
+    [data-testid="collapsedControl"] {
+        display: none !important;
+    }
+    [data-testid="stSidebar"] > div:first-child {
+        width: 100% !important;
+    }
     /* WhatsApp-style chat container */
     .chat-container {
         display: flex;
