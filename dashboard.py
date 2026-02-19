@@ -54,6 +54,16 @@ st.markdown("""
     [data-testid="collapsedControl"] {
         display: none !important;
     }
+    /* Hide the sidebar close button (<<) */
+    [data-testid="stSidebar"] button[kind="header"] {
+        display: none !important;
+    }
+    [data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {
+        display: none !important;
+    }
+    [data-testid="stSidebar"] header {
+        display: none !important;
+    }
     [data-testid="stSidebar"] > div:first-child {
         width: 100% !important;
     }
