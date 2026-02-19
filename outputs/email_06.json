@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  null,
-    "order_id":  "O512",
-    "agent_id":  "A105",
-    "issue_type":  "Order status inconsistency",
-    "issue_description":  "Order ID O512 is marked as PENDING in the database, but the customer has confirmed successful delivery.",
-    "severity":  "Medium",
-    "sentiment":  "Neutral",
-    "department":  "IT Support",
-    "cause":  "Data inconsistency between order status and delivery confirmation",
-    "time_window":  null
+{
+  "customer_id": null,
+  "order_id": "O512",
+  "agent_id": null,
+  "issue_type": "Order status inconsistency",
+  "issue_description": "Order ID O512 is marked as PENDING in the database, but the customer has confirmed successful delivery.",
+  "severity": "Medium",
+  "sentiment": "Neutral",
+  "department": "IT Support",
+  "cause": "Data inconsistency between order status and delivery confirmation",
+  "time_window": null
 }

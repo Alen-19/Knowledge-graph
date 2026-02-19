@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  "C510",
-    "order_id":  "O945",
-    "agent_id":  "A107",
-    "issue_type":  "delivery delay",
-    "issue_description":  "Order was delayed by more than 45 minutes with no clear communication from the delivery agent or the application, and no response from customer support when contacted.",
-    "severity":  "high",
-    "sentiment":  "negative",
-    "department":  "Logistics",
-    "cause":  "lack of communication and delayed response from delivery agent and support team",
-    "time_window":  "last few weeks, with a specific incident yesterday"
+{
+  "customer_id": "C510",
+  "order_id": "O945",
+  "agent_id": null,
+  "issue_type": "delivery delay",
+  "issue_description": "Order was delayed by more than 45 minutes with no clear communication from the delivery agent or the application, and no response from customer support when contacted.",
+  "severity": "high",
+  "sentiment": "negative",
+  "department": "Logistics",
+  "cause": "lack of communication and delayed response from delivery agent and support team",
+  "time_window": "last few weeks, with a specific incident yesterday"
 }

@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  "C781",
-    "order_id":  "O1233",
-    "agent_id":  "A103",
-    "issue_type":  "order delay",
-    "issue_description":  "Customer asks why order was delayed today and mentions lack of clear communication.",
-    "severity":  "medium",
-    "sentiment":  "negative",
-    "department":  "customer support",
-    "cause":  null,
-    "time_window":  "today"
+{
+  "customer_id": "C781",
+  "order_id": "O1233",
+  "agent_id": null,
+  "issue_type": "order delay",
+  "issue_description": "Customer asks why order was delayed today and mentions lack of clear communication.",
+  "severity": "medium",
+  "sentiment": "negative",
+  "department": "customer support",
+  "cause": null,
+  "time_window": "today"
 }

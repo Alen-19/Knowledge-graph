@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  null,
-    "order_id":  null,
-    "agent_id":  "A107",
-    "issue_type":  "Delivery delays and lack of communication",
-    "issue_description":  "Increase in customer complaints related to delivery delays and lack of communication over the past three days.",
-    "severity":  "high",
-    "sentiment":  "negative",
-    "department":  "Customer Service / Logistics",
-    "cause":  "Delivery delays and insufficient communication with customers",
-    "time_window":  "past three days"
+{
+  "customer_id": null,
+  "order_id": null,
+  "agent_id": null,
+  "issue_type": "Delivery delays and lack of communication",
+  "issue_description": "Increase in customer complaints related to delivery delays and lack of communication over the past three days.",
+  "severity": "high",
+  "sentiment": "negative",
+  "department": "Customer Service / Logistics",
+  "cause": "Delivery delays and insufficient communication with customers",
+  "time_window": "past three days"
 }

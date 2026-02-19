@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  "frustrated_user@gmail.com",
-    "order_id":  "O1150",
-    "agent_id":  "A102",
-    "issue_type":  "Food Quality",
-    "issue_description":  "Food arrived cold after a long wait with no updates or calls.",
-    "severity":  "High",
-    "sentiment":  "Negative",
-    "department":  "Customer Support",
-    "cause":  "Food was not kept warm during delivery.",
-    "time_window":  null
+{
+  "customer_id": "frustrated_user@gmail.com",
+  "order_id": "O1150",
+  "agent_id": null,
+  "issue_type": "Food Quality",
+  "issue_description": "Food arrived cold after a long wait with no updates or calls.",
+  "severity": "High",
+  "sentiment": "Negative",
+  "department": "Customer Support",
+  "cause": "Food was not kept warm during delivery.",
+  "time_window": null
 }

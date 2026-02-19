@@ -1,12 +1,12 @@
-﻿{
-    "customer_id":  "C409",
-    "order_id":  "O2209",
-    "agent_id":  "A103",
-    "issue_type":  "Positive Feedback",
-    "issue_description":  "Order arrived 10 minutes earlier than expected. Rider called ahead to confirm drop location. Best platform for speed and reliability. Five stars.",
-    "severity":  null,
-    "sentiment":  "Positive",
-    "department":  "Delivery",
-    "cause":  null,
-    "time_window":  "10 minutes early"
+{
+  "customer_id": "C409",
+  "order_id": "O2209",
+  "agent_id": null,
+  "issue_type": "Positive Feedback",
+  "issue_description": "Order arrived 10 minutes earlier than expected. Rider called ahead to confirm drop location. Best platform for speed and reliability. Five stars.",
+  "severity": null,
+  "sentiment": "Positive",
+  "department": "Delivery",
+  "cause": null,
+  "time_window": "10 minutes early"
 }
