@@ -16,8 +16,7 @@ import os
 st.set_page_config(
     page_title=config.STREAMLIT_PAGE_TITLE,
     page_icon=config.STREAMLIT_PAGE_ICON,
-    layout=config.STREAMLIT_LAYOUT,
-    initial_sidebar_state="expanded"
+    layout=config.STREAMLIT_LAYOUT
 )
 
 # Custom CSS
@@ -43,31 +42,6 @@ st.markdown("""
     /* Hide Deploy button and menu */
     [data-testid="stToolbar"] {
         display: none;
-    }
-    /* Make sidebar toggle arrow always visible */
-    [data-testid="collapsedControl"] {
-        display: flex !important;
-        position: fixed;
-        top: 12px;
-        left: 12px;
-        z-index: 999999;
-        background-color: #1f77b4;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        transition: background-color 0.3s;
-    }
-    [data-testid="collapsedControl"]:hover {
-        background-color: #ff7f0e;
-    }
-    [data-testid="collapsedControl"] svg {
-        fill: white !important;
-        width: 20px;
-        height: 20px;
     }
     /* WhatsApp-style chat container */
     .chat-container {
