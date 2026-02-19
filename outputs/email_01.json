@@ -1,12 +1,12 @@
-{
-  "customer_id": "C102",
-  "order_id": "O455",
-  "agent_id": null,
-  "issue_type": "Service Delay",
-  "issue_description": "Delivery exceeded the expected time by 25 minutes.",
-  "severity": null,
-  "sentiment": "Negative",
-  "department": "Operations",
-  "cause": "Delivery delay",
-  "time_window": "25 minutes"
+﻿{
+    "customer_id":  "C102",
+    "order_id":  "O455",
+    "agent_id":  "A101",
+    "issue_type":  "Service Delay",
+    "issue_description":  "Delivery exceeded the expected time by 25 minutes.",
+    "severity":  null,
+    "sentiment":  "Negative",
+    "department":  "Operations",
+    "cause":  "Delivery delay",
+    "time_window":  "25 minutes"
 }

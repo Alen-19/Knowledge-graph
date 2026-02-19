@@ -1,12 +1,12 @@
-{
-  "customer_id": "rohit123",
-  "order_id": "O1120",
-  "agent_id": null,
-  "issue_type": "late delivery",
-  "issue_description": "order came late today, don't know why, please check",
-  "severity": "medium",
-  "sentiment": "negative",
-  "department": "delivery",
-  "cause": null,
-  "time_window": "today"
+﻿{
+    "customer_id":  "rohit123",
+    "order_id":  "O1120",
+    "agent_id":  "A106",
+    "issue_type":  "late delivery",
+    "issue_description":  "order came late today, don\u0027t know why, please check",
+    "severity":  "medium",
+    "sentiment":  "negative",
+    "department":  "delivery",
+    "cause":  null,
+    "time_window":  "today"
 }

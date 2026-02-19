@@ -1,12 +1,12 @@
-{
-  "customer_id": "C642",
-  "order_id": "O988",
-  "agent_id": null,
-  "issue_type": "delivery_delay",
-  "issue_description": "Delivery time was slightly longer than promised.",
-  "severity": "low",
-  "sentiment": "positive",
-  "department": "Delivery",
-  "cause": "Delay in delivery beyond promised time",
-  "time_window": null
+﻿{
+    "customer_id":  "C642",
+    "order_id":  "O988",
+    "agent_id":  "A103",
+    "issue_type":  "delivery_delay",
+    "issue_description":  "Delivery time was slightly longer than promised.",
+    "severity":  "low",
+    "sentiment":  "positive",
+    "department":  "Delivery",
+    "cause":  "Delay in delivery beyond promised time",
+    "time_window":  null
 }

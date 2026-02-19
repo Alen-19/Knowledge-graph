@@ -1,12 +1,12 @@
-{
-  "customer_id": "sreejith@gmail.com",
-  "order_id": "O1162",
-  "agent_id": null,
-  "issue_type": "Cancellation confirmation",
-  "issue_description": "Cancelled O1162 but still shows active.",
-  "severity": "Medium",
-  "sentiment": "Negative",
-  "department": "Support",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  "sreejith@gmail.com",
+    "order_id":  "O1162",
+    "agent_id":  "A103",
+    "issue_type":  "Cancellation confirmation",
+    "issue_description":  "Cancelled O1162 but still shows active.",
+    "severity":  "Medium",
+    "sentiment":  "Negative",
+    "department":  "Support",
+    "cause":  null,
+    "time_window":  null
 }

@@ -1,12 +1,12 @@
-{
-  "customer_id": "C178",
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "service quality",
-  "issue_description": "Repeated complaints about service quality for multiple orders",
-  "severity": "high",
-  "sentiment": "neutral",
-  "department": "Support",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  "C178",
+    "order_id":  null,
+    "agent_id":  "A103",
+    "issue_type":  "service quality",
+    "issue_description":  "Repeated complaints about service quality for multiple orders",
+    "severity":  "high",
+    "sentiment":  "neutral",
+    "department":  "Support",
+    "cause":  null,
+    "time_window":  null
 }

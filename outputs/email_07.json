@@ -1,12 +1,12 @@
-{
-  "customer_id": null,
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "traffic",
-  "issue_description": "traffic",
-  "severity": null,
-  "sentiment": "neutral",
-  "department": "Ops",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  null,
+    "order_id":  null,
+    "agent_id":  "A106",
+    "issue_type":  "traffic",
+    "issue_description":  "traffic",
+    "severity":  null,
+    "sentiment":  "neutral",
+    "department":  "Ops",
+    "cause":  null,
+    "time_window":  null
 }

@@ -1,12 +1,12 @@
-{
-  "customer_id": null,
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "Data Quality",
-  "issue_description": "Mismatches between order_time and delivery_time for a few records in yesterday’s data load.",
-  "severity": "Medium",
-  "sentiment": "Neutral",
-  "department": "IT",
-  "cause": "Ingestion process validation needed",
-  "time_window": "Yesterday"
+﻿{
+    "customer_id":  null,
+    "order_id":  null,
+    "agent_id":  "A101",
+    "issue_type":  "Data Quality",
+    "issue_description":  "Mismatches between order_time and delivery_time for a few records in yesterdayâ€™s data load.",
+    "severity":  "Medium",
+    "sentiment":  "Neutral",
+    "department":  "IT",
+    "cause":  "Ingestion process validation needed",
+    "time_window":  "Yesterday"
 }

@@ -1,12 +1,12 @@
-{
-  "customer_id": "C509",
-  "order_id": "O721",
-  "agent_id": null,
-  "issue_type": "Order Cancellation",
-  "issue_description": "Order ID O721 was cancelled but the system still shows the status as \"In Progress\".",
-  "severity": null,
-  "sentiment": "neutral",
-  "department": "Support",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  "C509",
+    "order_id":  "O721",
+    "agent_id":  "A108",
+    "issue_type":  "Order Cancellation",
+    "issue_description":  "Order ID O721 was cancelled but the system still shows the status as \"In Progress\".",
+    "severity":  null,
+    "sentiment":  "neutral",
+    "department":  "Support",
+    "cause":  null,
+    "time_window":  null
 }

@@ -1,12 +1,12 @@
-{
-  "customer_id": "C799",
-  "order_id": "O1240",
-  "agent_id": null,
-  "issue_type": "Delivery Delay",
-  "issue_description": "Delivery times have been inconsistent recently.",
-  "severity": "Medium",
-  "sentiment": "Neutral",
-  "department": "Logistics",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  "C799",
+    "order_id":  "O1240",
+    "agent_id":  "A105",
+    "issue_type":  "Delivery Delay",
+    "issue_description":  "Delivery times have been inconsistent recently.",
+    "severity":  "Medium",
+    "sentiment":  "Neutral",
+    "department":  "Logistics",
+    "cause":  null,
+    "time_window":  null
 }

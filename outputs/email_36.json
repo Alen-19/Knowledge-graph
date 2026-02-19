@@ -1,12 +1,12 @@
-{
-  "customer_id": null,
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "system downtime",
-  "issue_description": "Delay in order updates earlier today",
-  "severity": "medium",
-  "sentiment": "neutral",
-  "department": "IT Support",
-  "cause": "temporary system maintenance",
-  "time_window": "earlier today"
+﻿{
+    "customer_id":  null,
+    "order_id":  null,
+    "agent_id":  "A102",
+    "issue_type":  "system downtime",
+    "issue_description":  "Delay in order updates earlier today",
+    "severity":  "medium",
+    "sentiment":  "neutral",
+    "department":  "IT Support",
+    "cause":  "temporary system maintenance",
+    "time_window":  "earlier today"
 }

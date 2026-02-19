@@ -1,12 +1,12 @@
-{
-  "customer_id": null,
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "delay",
-  "issue_description": "Seeing more delays today.",
-  "severity": "low",
-  "sentiment": "neutral",
-  "department": "operations",
-  "cause": null,
-  "time_window": "today"
+﻿{
+    "customer_id":  null,
+    "order_id":  null,
+    "agent_id":  "A105",
+    "issue_type":  "delay",
+    "issue_description":  "Seeing more delays today.",
+    "severity":  "low",
+    "sentiment":  "neutral",
+    "department":  "operations",
+    "cause":  null,
+    "time_window":  "today"
 }

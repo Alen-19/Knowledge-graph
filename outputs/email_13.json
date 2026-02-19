@@ -1,12 +1,12 @@
-{
-  "customer_id": "C611",
-  "order_id": null,
-  "agent_id": null,
-  "issue_type": "Fraud",
-  "issue_description": "Multiple orders placed from Customer ID C611 within a short time frame using different payment methods.",
-  "severity": "High",
-  "sentiment": "Neutral",
-  "department": "Security",
-  "cause": "Potential fraud due to multiple orders with varied payment methods",
-  "time_window": "short"
+﻿{
+    "customer_id":  "C611",
+    "order_id":  null,
+    "agent_id":  "A104",
+    "issue_type":  "Fraud",
+    "issue_description":  "Multiple orders placed from Customer ID C611 within a short time frame using different payment methods.",
+    "severity":  "High",
+    "sentiment":  "Neutral",
+    "department":  "Security",
+    "cause":  "Potential fraud due to multiple orders with varied payment methods",
+    "time_window":  "short"
 }

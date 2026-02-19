@@ -1,12 +1,12 @@
-{
-  "customer_id": "unknown_user@gmail.com",
-  "order_id": "O1002",
-  "agent_id": null,
-  "issue_type": "Late Delivery",
-  "issue_description": "Customer reports order O1002 is late, with no call or message and expresses dissatisfaction with the service.",
-  "severity": "high",
-  "sentiment": "negative",
-  "department": "Customer Support",
-  "cause": "Lack of communication",
-  "time_window": null
+﻿{
+    "customer_id":  "unknown_user@gmail.com",
+    "order_id":  "O1002",
+    "agent_id":  "A102",
+    "issue_type":  "Late Delivery",
+    "issue_description":  "Customer reports order O1002 is late, with no call or message and expresses dissatisfaction with the service.",
+    "severity":  "high",
+    "sentiment":  "negative",
+    "department":  "Customer Support",
+    "cause":  "Lack of communication",
+    "time_window":  null
 }

@@ -1,12 +1,12 @@
-{
-  "customer_id": "userx@gmail.com",
-  "order_id": "o1195",
-  "agent_id": null,
-  "issue_type": "delivery_delay",
-  "issue_description": "why late no msg no call",
-  "severity": "medium",
-  "sentiment": "negative",
-  "department": "customer_support",
-  "cause": null,
-  "time_window": null
+﻿{
+    "customer_id":  "userx@gmail.com",
+    "order_id":  "o1195",
+    "agent_id":  "A107",
+    "issue_type":  "delivery_delay",
+    "issue_description":  "why late no msg no call",
+    "severity":  "medium",
+    "sentiment":  "negative",
+    "department":  "customer_support",
+    "cause":  null,
+    "time_window":  null
 }
