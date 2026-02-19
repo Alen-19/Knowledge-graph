@@ -30,7 +30,7 @@ st.markdown("""
     }
     .header-title {
         color: #1f77b4;
-        font-size: 2.5em;
+        font-size: 3.5em;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -54,15 +54,22 @@ st.markdown("""
     [data-testid="collapsedControl"] {
         display: none !important;
     }
-    /* Hide the sidebar close button (<<) */
-    [data-testid="stSidebar"] button[kind="header"] {
+    /* Hide ALL sidebar collapse/close buttons */
+    [data-testid="stSidebar"] button[kind="header"],
+    [data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"],
+    [data-testid="stSidebar"] header,
+    [data-testid="stSidebarCollapsedControl"],
+    [data-testid="stSidebar"] svg[data-testid="stSidebarNavCollapseIcon"],
+    [data-testid="stSidebar"] button:has(svg),
+    [data-testid="baseButton-header"],
+    button[kind="headerNoPadding"],
+    [data-testid="stSidebar"] > div > div > div > button {
         display: none !important;
-    }
-    [data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {
-        display: none !important;
-    }
-    [data-testid="stSidebar"] header {
-        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        position: absolute !important;
     }
     [data-testid="stSidebar"] > div:first-child {
         width: 100% !important;
