@@ -1,6 +1,14 @@
 import json
 import os
+import subprocess
+import sys
 from typing import List, Dict, Any
+
+# Uninstall deprecated pinecone plugins before importing pinecone (fixes DeprecatedPluginError)
+for _pkg in ["pinecone-plugin-inference", "pinecone-plugin-assistant"]:
+    subprocess.run([sys.executable, "-m", "pip", "uninstall", "-y", _pkg],
+                   capture_output=True)
+
 from pinecone import Pinecone, ServerlessSpec
 from sentence_transformers import SentenceTransformer
 import config
