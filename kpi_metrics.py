@@ -163,7 +163,7 @@ class KPICalculator:
             issue_distribution = dict(Counter(issue_types))
             top_issues = sorted(issue_distribution.items(), key=lambda x: x[1], reverse=True)[:5]
             
-            critical_count = sum(1 for s in issue_severities if s in ["Critical", "High"])
+            critical_count = sum(1 for s in issue_severities if str(s).strip().lower() in ["critical", "high"])
             
             return {
                 "total_issues": len(issue_types),
@@ -189,7 +189,12 @@ class KPICalculator:
                     try:
                         with open(os.path.join(self.output_dir, file), 'r') as f:
                             data = json.load(f)
-                            sentiment = data.get("sentiment", "Neutral")
+                            sentiment = (data.get("sentiment") or "Neutral").strip().capitalize()
+                            # Normalize common variants
+                            if sentiment.lower() in ("concern", "concerned"):
+                                sentiment = "Negative"
+                            elif sentiment.lower() == "mixed":
+                                sentiment = "Neutral"
                             sentiments.append(sentiment)
                             
                             issue = normalize_issue_type(data.get("issue_type", ""))
@@ -212,6 +217,9 @@ class KPICalculator:
             positive = sentiment_dist.get("Positive", 0)
             negative = sentiment_dist.get("Negative", 0)
             neutral = sentiment_dist.get("Neutral", 0)
+            # Also count 'Mixed' as neutral
+            mixed = sentiment_dist.get("Mixed", 0)
+            neutral += mixed
             total = len(sentiments)
             
             # Build sentiment breakdown per issue type (normalized)
@@ -320,7 +328,7 @@ class KPICalculator:
                         pass
             
             high_satisfaction_customers = sum(1 for cust, sentiments in customer_sentiments.items()
-                                             if (sum(1 for s in sentiments if s == "Positive") / max(len(sentiments), 1)) > 0.5)
+                                             if (sum(1 for s in sentiments if str(s).strip().lower() == "positive") / max(len(sentiments), 1)) > 0.5)
             
             # Count unique orders across all customers
             all_orders = set()
