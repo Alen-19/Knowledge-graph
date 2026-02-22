@@ -1,6 +1,7 @@
 From: ops@enterprise.com
 To: analytics@enterprise.com
 Subject: Delay spike
+Date: 2026-01-28
 
 Seeing more delays today.
 Any insights?

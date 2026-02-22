@@ -1,6 +1,7 @@
 From: operations@enterprise.com
 To: hr@enterprise.com
 Subject: Agent performance review required
+Date: 2026-02-10
 
 Delivery Agent A218 has been associated with repeated
 delivery delays this week.

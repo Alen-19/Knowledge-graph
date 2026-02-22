@@ -3,10 +3,11 @@
   "order_id": "O1141",
   "agent_id": "A515",
   "issue_type": "Delay",
-  "issue_description": "Heavy traffic near city center. Running late for Order O1141. Customer informed.",
+  "issue_description": "Heavy traffic near city center. Running late for Order O1141.",
   "severity": null,
-  "sentiment": "neutral",
-  "department": "Operations",
-  "cause": "Traffic",
+  "sentiment": null,
+  "department": null,
+  "cause": "Heavy traffic near city center",
+  "date": "2026-02-02",
   "time_window": null
 }

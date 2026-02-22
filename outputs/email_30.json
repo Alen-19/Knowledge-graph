@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": null,
   "agent_id": null,
-  "issue_type": "delivery performance",
-  "issue_description": "Higher delay rates observed during weekends and late evenings in the last week's data.",
-  "severity": "moderate",
+  "issue_type": "performance",
+  "issue_description": "Higher delay rates during weekends and late evenings.",
+  "severity": null,
   "sentiment": "neutral",
   "department": "operations",
-  "cause": "Increased demand and reduced agent availability during weekends and late evenings.",
-  "time_window": "weekends and late evenings of the previous week"
+  "cause": "delays during weekends and late evenings",
+  "date": "2026-02-04",
+  "time_window": "late evenings"
 }

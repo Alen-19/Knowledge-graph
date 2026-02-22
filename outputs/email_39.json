@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": null,
   "agent_id": null,
-  "issue_type": "Data Quality",
-  "issue_description": "Missing delivery_time values observed for completed orders during routine audit.",
-  "severity": "Medium",
-  "sentiment": "Neutral",
-  "department": "Audit",
-  "cause": "Data entry omission",
+  "issue_type": "missing data",
+  "issue_description": "missing delivery_time values were observed for completed orders",
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "audit",
+  "cause": null,
+  "date": "2026-02-11",
   "time_window": null
 }

@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": null,
   "agent_id": null,
-  "issue_type": "resource_request",
-  "issue_description": "Please arrange extra delivery agents for tonight’s peak window due to higher order volume than usual.",
-  "severity": "medium",
-  "sentiment": "neutral",
-  "department": "scheduling",
-  "cause": "higher order volume",
-  "time_window": "tonight’s peak window"
+  "issue_type": null,
+  "issue_description": "Please arrange extra delivery agents for tonight’s peak window. We expect higher order volume than usual.",
+  "severity": null,
+  "sentiment": null,
+  "department": null,
+  "cause": null,
+  "date": "2026-02-06",
+  "time_window": null
 }

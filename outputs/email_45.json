@@ -2,11 +2,12 @@
   "customer_id": "C405",
   "order_id": "O2205",
   "agent_id": null,
-  "issue_type": "Positive Feedback",
-  "issue_description": "Customer placed over 20 orders, all delivered on time with items in perfect condition. Consistency is remarkable. Recommended platform to friends and family.",
+  "issue_type": null,
+  "issue_description": null,
   "severity": null,
-  "sentiment": "Positive",
-  "department": "Delivery",
+  "sentiment": "positive",
+  "department": null,
   "cause": null,
-  "time_window": "past month"
+  "date": "2026-02-16",
+  "time_window": null
 }

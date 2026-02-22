@@ -1,12 +1,13 @@
 {
-  "customer_id": "rohit123",
+  "customer_id": "rohit123@gmail.com",
   "order_id": "O1120",
   "agent_id": null,
   "issue_type": "late delivery",
-  "issue_description": "order came late today, don't know why, please check",
-  "severity": "medium",
+  "issue_description": "order came late today dont know why pls check",
+  "severity": null,
   "sentiment": "negative",
-  "department": "delivery",
+  "department": null,
   "cause": null,
-  "time_window": "today"
+  "date": "2026-01-28",
+  "time_window": null
 }

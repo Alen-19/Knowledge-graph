@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": ["O689", "O721", "O845"],
   "agent_id": null,
-  "issue_type": "Delivery Delay",
-  "issue_description": "Repeated customer complaints related to delivery delays for multiple orders.",
-  "severity": "High",
-  "sentiment": "Negative",
-  "department": "Operations",
-  "cause": "Resource allocation issues during peak hours",
-  "time_window": "Peak hours"
+  "issue_type": "delivery delays",
+  "issue_description": "repeated customer complaints related to delivery delays for multiple orders",
+  "severity": "high",
+  "sentiment": "negative",
+  "department": "Operations Team",
+  "cause": "resource allocation issues during peak hours",
+  "date": "2026-01-23",
+  "time_window": "peak hours"
 }

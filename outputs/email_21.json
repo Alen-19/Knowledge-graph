@@ -2,11 +2,12 @@
   "customer_id": "C701",
   "order_id": "O1101",
   "agent_id": null,
-  "issue_type": "Delivery delay and lack of updates",
-  "issue_description": "Order placed at 8:15 PM with expected delivery at 8:45 PM was delivered at 9:40 PM. No updates were provided in the app during the period, and the delivery agent did not respond to multiple calls.",
-  "severity": "high",
-  "sentiment": "negative",
+  "issue_type": "Delivery Delay",
+  "issue_description": "Order placed yesterday at around 8:15 PM with an expected delivery time of 8:45 PM, but was delivered only after 9:40 PM. No updates were provided in the app and attempts to contact the delivery agent received no response.",
+  "severity": "High",
+  "sentiment": "Negative",
   "department": "Delivery",
-  "cause": "No real‑time updates and unresponsive delivery agent",
-  "time_window": "2026-01-16T20:15:00/2026-01-16T21:40:00"
+  "cause": "Agent unresponsive / lack of system updates",
+  "date": "2026-01-27",
+  "time_window": "8:15 PM - 9:40 PM"
 }

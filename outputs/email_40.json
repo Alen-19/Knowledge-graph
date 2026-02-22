@@ -2,11 +2,12 @@
   "customer_id": "C799",
   "order_id": "O1240",
   "agent_id": null,
-  "issue_type": "Delivery Delay",
-  "issue_description": "Delivery times have been inconsistent recently.",
-  "severity": "Medium",
-  "sentiment": "Neutral",
-  "department": "Logistics",
+  "issue_type": "delivery delay",
+  "issue_description": "delivery times have been inconsistent recently",
+  "severity": null,
+  "sentiment": "mixed",
+  "department": "logistics",
   "cause": null,
+  "date": "2026-02-12",
   "time_window": null
 }

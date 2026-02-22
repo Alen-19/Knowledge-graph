@@ -2,11 +2,12 @@
   "customer_id": "C781",
   "order_id": "O1233",
   "agent_id": null,
-  "issue_type": "order delay",
-  "issue_description": "Customer asks why order was delayed today and mentions lack of clear communication.",
-  "severity": "medium",
+  "issue_type": "delay",
+  "issue_description": "Order was delayed today and not communicated clearly.",
+  "severity": null,
   "sentiment": "negative",
-  "department": "customer support",
+  "department": null,
   "cause": null,
-  "time_window": "today"
+  "date": "2026-02-10",
+  "time_window": null
 }

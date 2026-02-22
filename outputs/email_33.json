@@ -1,12 +1,13 @@
 {
-  "customer_id": "userx@gmail.com",
+  "customer_id": "userx",
   "order_id": "o1195",
   "agent_id": null,
-  "issue_type": "delivery_delay",
+  "issue_type": "late delivery",
   "issue_description": "why late no msg no call",
-  "severity": "medium",
+  "severity": null,
   "sentiment": "negative",
-  "department": "customer_support",
+  "department": null,
   "cause": null,
+  "date": "2026-02-06",
   "time_window": null
 }

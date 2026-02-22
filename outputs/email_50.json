@@ -2,11 +2,12 @@
   "customer_id": "C410",
   "order_id": "O2210",
   "agent_id": "A20",
-  "issue_type": "Service Recovery",
-  "issue_description": "Customer escalated delayed order but agent A20 proactively offered discount coupon and delivered replacement within 30 minutes. Customer withdrew complaint and left positive review praising support team.",
+  "issue_type": "order delay",
+  "issue_description": "delayed order",
   "severity": null,
-  "sentiment": "Positive",
-  "department": "Support",
-  "cause": "Delivery delay",
+  "sentiment": "positive",
+  "department": "Support Escalation",
+  "cause": "delivery delay",
+  "date": "2026-02-20",
   "time_window": "30 minutes"
 }

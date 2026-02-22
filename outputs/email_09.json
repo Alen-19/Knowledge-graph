@@ -3,10 +3,11 @@
   "order_id": "O721",
   "agent_id": null,
   "issue_type": "Order Cancellation",
-  "issue_description": "Order ID O721 was cancelled but the system still shows the status as \"In Progress\".",
+  "issue_description": "Customer reported that Order ID O721 was cancelled, but the system still shows the status as \"In Progress\".",
   "severity": null,
   "sentiment": "neutral",
-  "department": "Support",
+  "department": "Customer Support",
   "cause": null,
+  "date": "2026-01-13",
   "time_window": null
 }

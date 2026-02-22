@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": null,
   "agent_id": null,
-  "issue_type": "Data Quality",
+  "issue_type": "Data inconsistency",
   "issue_description": "Mismatches between order_time and delivery_time for a few records in yesterday’s data load.",
-  "severity": "Medium",
-  "sentiment": "Neutral",
-  "department": "IT",
-  "cause": "Ingestion process validation needed",
-  "time_window": "Yesterday"
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "Data",
+  "cause": "Ingestion process validation needed due to timestamp mismatches",
+  "date": "2026-01-30",
+  "time_window": null
 }

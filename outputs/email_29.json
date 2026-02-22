@@ -2,11 +2,12 @@
   "customer_id": "sreejith@gmail.com",
   "order_id": "O1162",
   "agent_id": null,
-  "issue_type": "Cancellation confirmation",
-  "issue_description": "Cancelled O1162 but still shows active.",
+  "issue_type": "Cancellation",
+  "issue_description": "Order O1162 was cancelled but still shows as active.",
   "severity": "Medium",
-  "sentiment": "Negative",
+  "sentiment": "Neutral",
   "department": "Support",
   "cause": null,
+  "date": "2026-02-03",
   "time_window": null
 }

@@ -1,6 +1,7 @@
 From: sreejith@gmail.com
 To: support@enterprise.com
 Subject: Cancel confirmation?
+Date: 2026-02-03
 
 Cancelled O1162.
 Still shows active.

@@ -2,11 +2,12 @@
   "customer_id": "C406",
   "order_id": "O2206",
   "agent_id": null,
-  "issue_type": "Positive Feedback",
-  "issue_description": "Merchant partner praised logistics with 98% delivery success rate this quarter. Customer left 5-star review praising packaging quality.",
+  "issue_type": null,
+  "issue_description": null,
   "severity": null,
-  "sentiment": "Positive",
-  "department": "Logistics",
+  "sentiment": "positive",
+  "department": "Delivery Operations",
   "cause": null,
-  "time_window": "this quarter"
+  "date": "2026-02-17",
+  "time_window": null
 }

@@ -4,9 +4,10 @@
   "agent_id": null,
   "issue_type": "delay",
   "issue_description": "Seeing more delays today.",
-  "severity": "low",
-  "sentiment": "neutral",
-  "department": "operations",
+  "severity": null,
+  "sentiment": null,
+  "department": "ops",
   "cause": null,
-  "time_window": "today"
+  "date": "2026-01-28",
+  "time_window": null
 }

@@ -3,10 +3,11 @@
   "order_id": null,
   "agent_id": null,
   "issue_type": "feedback",
-  "issue_description": "Positive feedback stating that the service was quick and the experience was satisfactory.",
+  "issue_description": "service was quick and the experience was satisfactory",
   "severity": null,
   "sentiment": "positive",
   "department": "delivery",
   "cause": null,
+  "date": "2026-01-09",
   "time_window": null
 }

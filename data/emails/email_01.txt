@@ -1,6 +1,7 @@
 From: support@enterprise.com
 To: operations@enterprise.com
 Subject: Service Delay Reported by Customer
+Date: 2026-01-05
 
 Dear Operations Team,
 

@@ -1,6 +1,7 @@
 From: audit@enterprise.com
 To: data.team@enterprise.com
 Subject: Data audit observation
+Date: 2026-02-11
 
 During routine audit, missing delivery_time values were
 observed for completed orders.

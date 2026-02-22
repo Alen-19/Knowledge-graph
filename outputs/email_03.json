@@ -3,10 +3,11 @@
   "order_id": null,
   "agent_id": null,
   "issue_type": "service quality",
-  "issue_description": "Repeated complaints about service quality for multiple orders",
-  "severity": "high",
-  "sentiment": "neutral",
-  "department": "Support",
+  "issue_description": "Repeated complaints about service quality for multiple orders.",
+  "severity": null,
+  "sentiment": "negative",
+  "department": "Support Desk",
   "cause": null,
+  "date": "2026-01-07",
   "time_window": null
 }

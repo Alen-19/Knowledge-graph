@@ -3,10 +3,11 @@
   "order_id": null,
   "agent_id": null,
   "issue_type": "traffic",
-  "issue_description": "traffic",
+  "issue_description": null,
   "severity": null,
-  "sentiment": "neutral",
-  "department": "Ops",
-  "cause": null,
+  "sentiment": null,
+  "department": "ops",
+  "cause": "traffic",
+  "date": "2026-01-12",
   "time_window": null
 }

@@ -8,5 +8,6 @@
   "sentiment": "neutral",
   "department": "Operations",
   "cause": "traffic congestion",
+  "date": "2026-01-12",
   "time_window": "peak hours"
 }

@@ -2,11 +2,12 @@
   "customer_id": "C611",
   "order_id": null,
   "agent_id": null,
-  "issue_type": "Fraud",
-  "issue_description": "Multiple orders placed from Customer ID C611 within a short time frame using different payment methods.",
-  "severity": "High",
-  "sentiment": "Neutral",
+  "issue_type": "Suspicious Order Activity",
+  "issue_description": "Multiple orders have been placed from Customer ID C611 within a short time frame using different payment methods.",
+  "severity": null,
+  "sentiment": "neutral",
   "department": "Security",
-  "cause": "Potential fraud due to multiple orders with varied payment methods",
-  "time_window": "short"
+  "cause": null,
+  "date": "2026-01-17",
+  "time_window": null
 }

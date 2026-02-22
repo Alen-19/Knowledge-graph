@@ -2,11 +2,12 @@
   "customer_id": "C745",
   "order_id": "O1188",
   "agent_id": null,
-  "issue_type": "Delivery Delay",
-  "issue_description": "Order was delayed significantly with no communication from the app or delivery agent, causing inconvenience.",
-  "severity": "High",
-  "sentiment": "Negative",
-  "department": "Customer Support",
-  "cause": "Delay and lack of communication",
-  "time_window": "Yesterday"
+  "issue_type": "delivery delay",
+  "issue_description": "Order was delayed significantly with no communication from the app or the delivery agent.",
+  "severity": "high",
+  "sentiment": "negative",
+  "department": "delivery",
+  "cause": "lack of communication",
+  "date": "2026-02-04",
+  "time_window": null
 }

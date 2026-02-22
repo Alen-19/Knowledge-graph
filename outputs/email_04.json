@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": null,
   "agent_id": "A312",
-  "issue_type": "performance",
-  "issue_description": "multiple late deliveries",
-  "severity": "medium",
-  "sentiment": "concern",
-  "department": "operations",
-  "cause": "late deliveries",
-  "time_window": "past week"
+  "issue_type": "late deliveries",
+  "issue_description": "Delivery Agent ID A312 has been associated with multiple late deliveries in the past week.",
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "Operations",
+  "cause": "agent performance",
+  "date": "2026-01-08",
+  "time_window": null
 }

@@ -3,10 +3,11 @@
   "order_id": "O945",
   "agent_id": null,
   "issue_type": "delivery delay",
-  "issue_description": "Order was delayed by more than 45 minutes with no clear communication from the delivery agent or the application, and no response from customer support when contacted.",
+  "issue_description": "Order was delayed by more than 45 minutes with no clear communication from the delivery agent or the application, and no response from customer support.",
   "severity": "high",
   "sentiment": "negative",
-  "department": "Logistics",
-  "cause": "lack of communication and delayed response from delivery agent and support team",
-  "time_window": "last few weeks, with a specific incident yesterday"
+  "department": "Customer Support",
+  "cause": "delivery agent delay and communication failure",
+  "date": "2026-01-20",
+  "time_window": "45 minutes"
 }

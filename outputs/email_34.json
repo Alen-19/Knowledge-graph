@@ -2,11 +2,12 @@
   "customer_id": null,
   "order_id": ["O1201", "O1202", "O1203"],
   "agent_id": null,
-  "issue_type": "Unusual order pattern",
+  "issue_type": "unusual order pattern",
   "issue_description": "Multiple high-value orders placed from the same customer account within a short duration.",
-  "severity": "High",
-  "sentiment": "Concerned",
-  "department": "Security",
-  "cause": "Potential fraud or system abuse",
-  "time_window": "short duration"
+  "severity": null,
+  "sentiment": "neutral",
+  "department": "compliance",
+  "cause": null,
+  "date": "2026-02-07",
+  "time_window": null
 }

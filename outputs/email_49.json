@@ -2,11 +2,12 @@
   "customer_id": "C409",
   "order_id": "O2209",
   "agent_id": null,
-  "issue_type": "Positive Feedback",
-  "issue_description": "Order arrived 10 minutes earlier than expected. Rider called ahead to confirm drop location. Best platform for speed and reliability. Five stars.",
-  "severity": null,
-  "sentiment": "Positive",
-  "department": "Delivery",
+  "issue_type": "praise",
+  "issue_description": "Order arrived 10 minutes earlier than expected and the rider called ahead to confirm the drop location.",
+  "severity": "low",
+  "sentiment": "positive",
+  "department": "delivery",
   "cause": null,
-  "time_window": "10 minutes early"
+  "date": "2026-02-19",
+  "time_window": null
 }

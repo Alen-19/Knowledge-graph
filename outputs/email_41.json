@@ -2,11 +2,12 @@
   "customer_id": "C401",
   "order_id": "O2201",
   "agent_id": null,
-  "issue_type": "Positive Feedback",
-  "issue_description": "Order delivered in record time of 12 minutes. Delivery partner was polite and professional. Best delivery experience.",
+  "issue_type": "feedback",
+  "issue_description": "Delivery was completed in record time (12 minutes) and the delivery partner was polite and professional.",
   "severity": null,
-  "sentiment": "Positive",
-  "department": "Delivery",
-  "cause": null,
+  "sentiment": "positive",
+  "department": "delivery",
+  "cause": "fast delivery",
+  "date": "2026-02-13",
   "time_window": "12 minutes"
 }

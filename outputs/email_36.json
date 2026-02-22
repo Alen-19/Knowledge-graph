@@ -3,10 +3,11 @@
   "order_id": null,
   "agent_id": null,
   "issue_type": "system downtime",
-  "issue_description": "Delay in order updates earlier today",
-  "severity": "medium",
+  "issue_description": "The delay in order updates earlier today was due to temporary system maintenance.",
+  "severity": null,
   "sentiment": "neutral",
   "department": "IT Support",
   "cause": "temporary system maintenance",
-  "time_window": "earlier today"
+  "date": "2026-02-09",
+  "time_window": null
 }

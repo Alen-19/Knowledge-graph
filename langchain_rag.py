@@ -65,7 +65,7 @@ class LangChainRAGPipeline:
                 email_name = os.path.basename(ef).replace('.json', '')
                 parts = [f"[Email: {email_name}]"]
                 for key in ['customer_id', 'order_id', 'issue_type', 'issue_description',
-                            'sentiment', 'severity', 'department', 'cause', 'agent_id', 'time_window']:
+                            'sentiment', 'severity', 'department', 'cause', 'agent_id', 'date', 'time_window']:
                     val = data.get(key)
                     if val and str(val) not in ('None', '', 'null'):
                         parts.append(f"  {key}: {val}")

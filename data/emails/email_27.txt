@@ -1,6 +1,7 @@
 From: frustrated_user@gmail.com
 To: support@enterprise.com
 Subject: Seriously unhappy
+Date: 2026-02-02
 
 I waited.
 Waited more.
