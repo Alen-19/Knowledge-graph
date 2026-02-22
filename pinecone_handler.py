@@ -1,13 +1,18 @@
 import json
 import os
-import subprocess
 import sys
+import types
 from typing import List, Dict, Any
 
-# Uninstall deprecated pinecone plugins before importing pinecone (fixes DeprecatedPluginError)
-for _pkg in ["pinecone-plugin-inference", "pinecone-plugin-assistant"]:
-    subprocess.run([sys.executable, "-m", "pip", "uninstall", "-y", _pkg],
-                   capture_output=True)
+# Prevent DeprecatedPluginError by faking the deprecated plugin modules
+# so pinecone's _check_for_deprecated_plugins() sees an ImportError instead.
+for _mod_name in ["pinecone_plugins", "pinecone_plugins.inference"]:
+    if _mod_name in sys.modules:
+        del sys.modules[_mod_name]
+# Insert a dummy module that has no __installables__ attribute
+_dummy = types.ModuleType("pinecone_plugins")
+_dummy.__path__ = []
+sys.modules["pinecone_plugins"] = _dummy
 
 from pinecone import Pinecone, ServerlessSpec
 from sentence_transformers import SentenceTransformer
