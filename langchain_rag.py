@@ -57,13 +57,27 @@ class LangChainRAGPipeline:
         context_parts = []
 
         # 1. Load email NER outputs
+        # Also build a mapping from email filename to customer_id for raw email labeling
+        self._email_customer_map = {}
         try:
             email_files = sorted(glob.glob(os.path.join(config.OUTPUT_DIR, "email_*.json")))
             for ef in email_files:
                 with open(ef, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 email_name = os.path.basename(ef).replace('.json', '')
-                parts = [f"[Email: {email_name}]"]
+                # Build a human-readable label from customer_id, date, and issue_type
+                cid = data.get('customer_id') or 'Unknown'
+                date_val = data.get('date') or ''
+                issue = data.get('issue_type') or ''
+                label_parts = [f"Customer {cid}"]
+                if date_val and str(date_val) not in ('None', 'null', ''):
+                    label_parts.append(f"Date: {date_val}")
+                if issue and str(issue) not in ('None', 'null', ''):
+                    label_parts.append(f"Issue: {issue}")
+                label = ' | '.join(label_parts)
+                parts = [f"[{label}]"]
+                # Store mapping for raw email files
+                self._email_customer_map[email_name] = label
                 for key in ['customer_id', 'order_id', 'issue_type', 'issue_description',
                             'sentiment', 'severity', 'department', 'cause', 'agent_id', 'date', 'time_window']:
                     val = data.get(key)
@@ -80,8 +94,10 @@ class LangChainRAGPipeline:
                 with open(tf, 'r', encoding='utf-8') as f:
                     text = f.read().strip()
                 if text:
-                    email_name = os.path.basename(tf)
-                    context_parts.append(f"[Raw Email: {email_name}]\n{text}")
+                    email_base = os.path.basename(tf).replace('.txt', '')
+                    # Use the human-readable label from parsed NER data if available
+                    label = self._email_customer_map.get(email_base, f"Email from {email_base}")
+                    context_parts.append(f"[Raw: {label}]\n{text}")
         except Exception as e:
             print(f"⚠️  Error loading raw emails: {e}")
 
@@ -134,6 +150,9 @@ class LangChainRAGPipeline:
         """Create a QA chain for enterprise knowledge"""
         
         prompt_template = """You are an enterprise intelligence assistant. Answer questions based on the provided context.
+
+IMPORTANT: When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
+Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
 
 Context: {context}
 
@@ -289,6 +308,10 @@ say "Information not available in knowledge base" and suggest what data might he
 You have access to parsed emails, document NER extractions, and database entity data.
 Answer the user's question accurately based ONLY on the provided data. 
 If you list items, use numbered lists. Be specific with names, IDs, dates, and details.
+
+IMPORTANT: When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
+Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
+This makes the response meaningful to business users who have no knowledge of internal file naming.
 
 Enterprise Data:
 {combined_context}
