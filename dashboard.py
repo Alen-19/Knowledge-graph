@@ -228,7 +228,7 @@ with tab1:
                            marker_color='indianred')
                 ])
                 fig.update_layout(title="Issue Type Distribution", xaxis_title="Issue Type", yaxis_title="Count")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
         
         with col2:
             sentiment_data = kpis.get("sentiment_analysis", {})
@@ -238,7 +238,7 @@ with tab1:
                            values=list(sentiment_data["sentiment_distribution"].values()))
                 ])
                 fig.update_layout(title="Customer Sentiment Distribution")
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
         
         st.markdown("---")
         
@@ -265,14 +265,14 @@ with tab1:
                 category_orders={"Issue Type": issue_order, "Sentiment": ["Positive", "Neutral", "Negative"]}
             )
             fig.update_layout(xaxis_tickangle=-30)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
         
         # Agent Performance Table (keep the table, remove the chart)
         st.markdown("### 👥 Agent Performance")
         agent_perf = kpis.get("agent_performance", {})
         if agent_perf.get("top_agents"):
             agent_df = pd.DataFrame(agent_perf["top_agents"])
-            st.dataframe(agent_df, use_container_width=True)
+            st.dataframe(agent_df, width='stretch')
         
         st.markdown("---")
         
@@ -293,7 +293,7 @@ with tab1:
         # Detailed KPI Table
         st.markdown("### 📋 Detailed KPI Report")
         kpi_df = st.session_state.kpi_calc.export_kpis_to_dataframe()
-        st.dataframe(kpi_df, use_container_width=True)
+        st.dataframe(kpi_df, width='stretch')
         
         # Export options
         col1, col2 = st.columns(2)
@@ -351,6 +351,8 @@ with tab2:
                     
                     if result.get("success"):
                         answer = result.get("answer", "No answer generated")
+                        # Strip any HTML <br> tags the LLM may have produced
+                        answer = answer.replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n")
                         sources = result.get("sources", [])
                     else:
                         answer = result.get("answer", result.get("error", "Something went wrong. Please try again."))
@@ -614,7 +616,7 @@ with tab3:
                         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                         margin=dict(l=0, r=0, t=0, b=0),
                     )
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
                 except Exception as fallback_error:
                     st.error(f"Fallback visualization also failed: {fallback_error}")
     

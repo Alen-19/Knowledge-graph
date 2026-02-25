@@ -151,8 +151,11 @@ class LangChainRAGPipeline:
         
         prompt_template = """You are an enterprise intelligence assistant. Answer questions based on the provided context.
 
-IMPORTANT: When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
-Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
+IMPORTANT FORMATTING RULES:
+- When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
+  Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
+- Format your response using Markdown only. Use bullet points (- or •), numbered lists, and newlines for readability.
+- NEVER use HTML tags like <br>, <p>, <b>, etc. Use only plain Markdown.
 
 Context: {context}
 
@@ -309,9 +312,12 @@ You have access to parsed emails, document NER extractions, and database entity 
 Answer the user's question accurately based ONLY on the provided data. 
 If you list items, use numbered lists. Be specific with names, IDs, dates, and details.
 
-IMPORTANT: When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
-Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
-This makes the response meaningful to business users who have no knowledge of internal file naming.
+IMPORTANT FORMATTING RULES:
+- When referencing data sources, NEVER cite internal file names or email numbers (e.g. "email 01", "email_15").
+  Instead, always identify records by their Customer ID (e.g. "Customer C102"), date, order ID, or issue type.
+  This makes the response meaningful to business users who have no knowledge of internal file naming.
+- Format your response using Markdown only. Use bullet points (- or •), numbered lists, and newlines for readability.
+- NEVER use HTML tags like <br>, <p>, <b>, etc. Use only plain Markdown.
 
 Enterprise Data:
 {combined_context}
